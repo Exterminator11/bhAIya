@@ -13,3 +13,4 @@ Based on customer needs and budget, users can search for the product of their ch
 This accessibility feature allows for users to simple take a picture of a product in the store and immediately learn every detail about the product including past reccomendations, price details, product specs and much more.
 
 Our aim is to help bridge the gap between customers and companies by allowing users to learn more about the products they use
+
