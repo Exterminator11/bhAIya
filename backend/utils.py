@@ -68,7 +68,7 @@ def getCategoriesFromText(modelname,description,ollama=True):
             print("Processing text...")
             modelIns = HuggingFaceEndpoint(
                 repo_id="mistralai/Mistral-7B-Instruct-v0.3",
-                huggingfacehub_api_token="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",
+                huggingfacehub_api_token="token_here",
             )
             res=modelIns.invoke(prompt)
             print(res)
