@@ -14,7 +14,3 @@ This accessibility feature allows for users to simple take a picture of a produc
 
 Our aim is to help bridge the gap between customers and companies by allowing users to learn more about the products they use
 
-# Demo
-
-https://github.com/Exterminator11/bhAIya/assets/88940647/a7ff55b7-963a-4111-a265-9faad1f1c524
-
