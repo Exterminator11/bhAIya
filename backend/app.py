@@ -30,7 +30,7 @@ async def data(data:dict):
     img64=data.get("img64",None)
     categories={}
     if(text!=None):
-        textCategories=getCategoriesFromText("mistral",text,ollama=False)["categories"][0]
+        textCategories=getCategoriesFromText("mistral",text,ollama=True)["categories"][0]
     if(img64!=None):
         imgCategories=getcategoriesFromImage("llava",imagePath=None,imgb64=img64,ollama=True)["categories"][0]
     if(text!=None and img64!=None):
@@ -40,7 +40,8 @@ async def data(data:dict):
         categories=textCategories
     else:
         categories=imgCategories
-    results=find_top_k_similar(categories,database,top_k=1)
+    print(categories)
+    results=find_top_k_similar(categories,database,top_k=5)
     l=[]
     for result in results:
         result[1]["image"] = getImage(
