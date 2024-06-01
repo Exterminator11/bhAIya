@@ -40,7 +40,7 @@ We're proud of providing an immersive and spatial experience to customers, bring
 https://github.com/Exterminator11/bhAIya/assets/88940647/6e40777d-aa1e-40b6-98fe-f1344b49a29a
 
 # Details
-1. Main.py - This is the driver code that is responsible for the UI that the customer sees
+1. main.py - This is the driver code that is responsible for the UI that the customer sees
 2. backend/database.csv - A sample product database that is used as a benchmark for creating a sample database
 3. backend/ImageBackend - Contains 100 product images that are used for the few shot learning of the LLM
 4. backend/database.json - The final dynamic database constructed by bhAIya that contains all the information about the products the shopkeeper has
